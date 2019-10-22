@@ -1,0 +1,57 @@
+{
+  "accounts": [
+    {
+      "id": 100101,
+      "balance": 240,
+      "currency": "USD",
+      "owner": 1
+    },
+    {
+      "id": 100102,
+      "balance": 124000,
+      "currency": "RWF",
+      "owner": 1
+    },
+    {
+      "id": 100103,
+      "balance": 3300,
+      "currency": "KES",
+      "owner": 1
+    },
+    {
+      "id": 100104,
+      "balance": 10000,
+      "currency": "RWF",
+      "owner": 2
+    },
+    {
+      "id": 100105,
+      "balance": 1700,
+      "currency": "KES",
+      "owner": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Denis Muroski",
+      "email": "DMuroski@magna.net",
+      "phone": "(179)090-2772",
+      "accounts": [100101, 100102, 100103]
+    },
+    {
+      "id": 2,
+      "name": "Cayla Dunlap",
+      "email": "cayla.dunlap@gmail.net",
+      "phone": "(431)702-7435",
+      "accounts": [100104]
+    },
+    {
+      "id": 3,
+      "name": "Kristy Berry",
+      "email": "KBerry@sed.ly",
+      "phone": "(915)983-1493",
+      "accounts": [100105]
+    }
+  ]
+}
